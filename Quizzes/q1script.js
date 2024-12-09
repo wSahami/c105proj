@@ -32,6 +32,12 @@ function getSelectedOption(questionId) {
 function submitQuiz() {
     document.getElementById('goodbutton').classList.add('hidden')
 	document.getElementById('badbutton').classList.add('hidden')
+	document.getElementById('q1').classList.add('hidden')
+	document.getElementById('q2').classList.add('hidden')
+	document.getElementById('q3').classList.add('hidden')
+	document.getElementById('q4').classList.add('hidden')
+	document.getElementById('q5').classList.add('hidden')
+
     const answers = {
 		q1: getSelectedOption('q1'),
 		q2: getSelectedOption('q2'),
@@ -46,18 +52,28 @@ function submitQuiz() {
 	// Adjust correct answers based on your questions
 	if (answers.q1 === 'd') {
 		score += 20;
+	} else {
+		document.getElementById("q1").classList.remove('hidden')
 	}
 	if (answers.q2 === 'b') {
 		score += 20;
+	} else {
+		document.getElementById("q2").classList.remove('hidden')
 	}
 	if (answers.q3 === 'c') {
 		score += 20;
+	} else {
+		document.getElementById("q3").classList.remove('hidden')
 	}
 	if (answers.q4 === 'c') {
 		score += 20;
+	} else {
+		document.getElementById("q4").classList.remove('hidden')
 	}
 	if (answers.q5 === 'a') {
 		score += 20;
+	} else {
+		document.getElementById("q5").classList.remove('hidden')
 	}
 
 	// Display result section
