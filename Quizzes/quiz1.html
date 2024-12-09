@@ -1,0 +1,291 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../output.css" rel="stylesheet">
+  <title>Calling On | Be Inclusive!</title>
+</head>
+<body>
+    <div class="bg-white">
+        <header class="absolute inset-x-0 top-0 z-50">
+          <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+            <div class="flex lg:flex-1">
+            </div>
+            <div class="flex lg:hidden">
+              <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+                <span class="sr-only">Open main menu</span>
+                <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+              </button>
+            </div>
+            <div class="hidden lg:flex lg:gap-x-12">
+              <a href="#" class="text-sm/6 font-semibold text-gray-900">Learn</a>
+              <a href="./Quizzes/quiz1.html" class="text-sm/6 font-semibold text-gray-900">Test</a>
+            </div>
+            <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+            </div>
+          </nav>
+          <!-- Mobile menu, show/hide based on menu open state. -->
+          <div class="lg:hidden" role="dialog" aria-modal="true">
+            <!-- Background backdrop, show/hide based on slide-over state. -->
+            <div class="fixed inset-0 z-50"></div>
+            <div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+              <div class="flex items-center justify-between">
+                <a href="#" class="-m-1.5 p-1.5">
+                </a>
+                <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+                  <span class="sr-only">Close menu</span>
+                  <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+              <div class="mt-6 flow-root">
+                <div class="-my-6 divide-y divide-gray-500/10">
+                  <div class="space-y-2 py-6">
+                    <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Learn</a>
+                    <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Test</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+      
+        <div class="relative isolate px-6 pt-14 lg:px-8">
+          <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
+            <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+          </div>
+          <div class="mx-auto max-w-2xl py-2 sm:py-1 lg:py-2">
+            </div>
+            <div class="max-w-xl mx-auto bg-white p-8 
+				rounded-xl shadow-lg">
+		<h1 class="text-3xl font-bold mb-6 text-indigo text-center text-indigo-700">Calling On</h1>
+		<form id="quizForm" class="space-y-4">
+            <style>
+                .checkbox:checked {
+                    border: none;
+                }
+                .checkbox:checked + .check-icon {
+                    display: flex;
+                }
+            </style>
+			<!-- Question 1 -->
+			<div class="flex flex-col mb-4">
+				<label for="q1" class="text-2xl font-semibold mb-2">
+					What is Calling On
+				</label>
+				<div class="flex items-center space-x-4 mb-2">
+					<div class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative">
+                        <input aria-labelledby="label1" type="radio" name="q1" value="a" id="q1a" class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none" />
+                        <div class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"></div>
+                    </div>
+                    <label for="'q1a" id="label1" class="ml-2 text-sm leading-4 font-normal text-gray-800 dark:text-gray-100">Encouraging someone to explain their views</label>
+				</div>
+				<div class="flex items-center space-x-4 mb-2">
+                    <div class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative">
+                        <input aria-labelledby="label1" type="radio" name="q1" value="b" id="q1b" class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none" />
+                        <div class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"></div>
+                    </div>
+                    <label for="'q1b" id="label1" class="ml-2 text-sm leading-4 font-normal text-gray-800 dark:text-gray-100">Inviting someone to participate in the discussion</label>
+				</div>
+				<div class="flex items-center space-x-4 mb-2">
+					<div class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative">
+                        <input aria-labelledby="label1" type="radio" name="q1" value="c" id="q1c" class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none" />
+                        <div class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"></div>
+                    </div>
+                    <label for="'q1c" id="label1" class="ml-2 text-sm leading-4 font-normal text-gray-800 dark:text-gray-100">A Non-Confrontational communication method</label>
+				</div>
+				<div class="flex items-center space-x-4 mb-2">
+                    <div class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative">
+                        <input aria-labelledby="label1" type="radio" name="q1" value="d" id="q1d" class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none" />
+                        <div class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"></div>
+                    </div>
+                    <label for="'q1d" id="label1" class="ml-2 text-sm leading-4 font-normal text-gray-800 dark:text-gray-100">All of the Above</label>
+
+				</div>
+			</div>
+
+			<div class="flex flex-col mb-4">
+				<label for="q2" class="text-2xl font-semibold mb-2">
+					When is Calling On used
+				</label>
+				<div class="flex items-center space-x-4 mb-2">
+					<div class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative">
+                        <input aria-labelledby="label1" type="radio" name="q2" value="a" id="q2a" class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none" />
+                        <div class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"></div>
+                    </div>
+                    <label for="'q2a" id="label1" class="ml-2 text-sm leading-4 font-normal text-gray-800 dark:text-gray-100">To Continue a dialogue</label>
+				</div>
+				<div class="flex items-center space-x-4 mb-2">
+                    <div class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative">
+                        <input aria-labelledby="label1" type="radio" name="q2" value="b" id="q2b" class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none" />
+                        <div class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"></div>
+                    </div>
+                    <label for="'q2b" id="label1" class="ml-2 text-sm leading-4 font-normal text-gray-800 dark:text-gray-100">To invite someone to question their views without confrontation</label>
+				</div>
+				<div class="flex items-center space-x-4 mb-2">
+					<div class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative">
+                        <input aria-labelledby="label1" type="radio" name="q2" value="c" id="q2c" class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none" />
+                        <div class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"></div>
+                    </div>
+                    <label for="'q2c" id="label1" class="ml-2 text-sm leading-4 font-normal text-gray-800 dark:text-gray-100">To point out to someone what is wrong with their thinking</label>
+				</div>
+				<div class="flex items-center space-x-4 mb-2">
+                    <div class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative">
+                        <input aria-labelledby="label1" type="radio" name="q2" value="d" id="q2d" class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none" />
+                        <div class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"></div>
+                    </div>
+                    <label for="'q2d" id="label1" class="ml-2 text-sm leading-4 font-normal text-gray-800 dark:text-gray-100">To urge others to do something</label>
+
+				</div>
+			</div>
+
+
+			<div class="flex flex-col mb-4">
+				<label for="q3" class="text-2xl font-semibold mb-2">
+					What are the advantages of Calling On
+				</label>
+				<div class="flex items-center space-x-4 mb-2">
+					<div class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative">
+                        <input aria-labelledby="label1" type="radio" name="q3" value="a" id="q3a" class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none" />
+                        <div class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"></div>
+                    </div>
+                    <label for="'q3a" id="label1" class="ml-2 text-sm leading-4 font-normal text-gray-800 dark:text-gray-100">It allows you to argue against them better</label>
+				</div>
+				<div class="flex items-center space-x-4 mb-2">
+                    <div class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative">
+                        <input aria-labelledby="label1" type="radio" name="q3" value="b" id="q3b" class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none" />
+                        <div class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"></div>
+                    </div>
+                    <label for="'q3b" id="label1" class="ml-2 text-sm leading-4 font-normal text-gray-800 dark:text-gray-100">You can understand what sources they use for their argument</label>
+				</div>
+				<div class="flex items-center space-x-4 mb-2">
+					<div class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative">
+                        <input aria-labelledby="label1" type="radio" name="q3" value="c" id="q3c" class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none" />
+                        <div class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"></div>
+                    </div>
+                    <label for="'q3c" id="label1" class="ml-2 text-sm leading-4 font-normal text-gray-800 dark:text-gray-100">You can encourage them to consider their viewpoint without conflict</label>
+				</div>
+				<div class="flex items-center space-x-4 mb-2">
+                    <div class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative">
+                        <input aria-labelledby="label1" type="radio" name="q3" value="d" id="q3d" class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none" />
+                        <div class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"></div>
+                    </div>
+                    <label for="'q3d" id="label1" class="ml-2 text-sm leading-4 font-normal text-gray-800 dark:text-gray-100">It allows you to seem intellectual and superior</label>
+
+				</div>
+			</div>
+
+			<div class="flex flex-col mb-4">
+				<label for="q4" class="text-2xl font-semibold mb-2">
+					Which is a "Calling On" Phrase
+				</label>
+				<div class="flex items-center space-x-4 mb-2">
+					<div class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative">
+                        <input aria-labelledby="label1" type="radio" name="q4" value="a" id="q4a" class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none" />
+                        <div class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"></div>
+                    </div>
+                    <label for="'q4a" id="label1" class="ml-2 text-sm leading-4 font-normal text-gray-800 dark:text-gray-100">That is not true, why do you believe that</label>
+				</div>
+				<div class="flex items-center space-x-4 mb-2">
+                    <div class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative">
+                        <input aria-labelledby="label1" type="radio" name="q4" value="b" id="q4b" class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none" />
+                        <div class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"></div>
+                    </div>
+                    <label for="'q4b" id="label1" class="ml-2 text-sm leading-4 font-normal text-gray-800 dark:text-gray-100">That is clearly a conspiracy theory, what?</label>
+				</div>
+				<div class="flex items-center space-x-4 mb-2">
+					<div class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative">
+                        <input aria-labelledby="label1" type="radio" name="q4" value="c" id="q4c" class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none" />
+                        <div class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"></div>
+                    </div>
+                    <label for="'q4c" id="label1" class="ml-2 text-sm leading-4 font-normal text-gray-800 dark:text-gray-100">Explain why you think that is the case</label>
+				</div>
+				<div class="flex items-center space-x-4 mb-2">
+                    <div class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative">
+                        <input aria-labelledby="label1" type="radio" name="q4" value="d" id="q4d" class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none" />
+                        <div class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"></div>
+                    </div>
+                    <label for="'q4d" id="label1" class="ml-2 text-sm leading-4 font-normal text-gray-800 dark:text-gray-100">I can't argue with someone who can't see the truth</label>
+
+				</div>
+			</div>
+
+			<div class="flex flex-col mb-4">
+				<label for="q5" class="text-2xl font-semibold mb-2">
+					Who can use Calling On
+				</label>
+				<div class="flex items-center space-x-4 mb-2">
+					<div class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative">
+                        <input aria-labelledby="label1" type="radio" name="q5" value="a" id="q5a" class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none" />
+                        <div class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"></div>
+                    </div>
+                    <label for="'q5a" id="label1" class="ml-2 text-sm leading-4 font-normal text-gray-800 dark:text-gray-100">Anyone</label>
+				</div>
+				<div class="flex items-center space-x-4 mb-2">
+                    <div class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative">
+                        <input aria-labelledby="label1" type="radio" name="q5" value="b" id="q5b" class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none" />
+                        <div class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"></div>
+                    </div>
+                    <label for="'q5b" id="label1" class="ml-2 text-sm leading-4 font-normal text-gray-800 dark:text-gray-100">Unconfident people</label>
+				</div>
+				<div class="flex items-center space-x-4 mb-2">
+					<div class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative">
+                        <input aria-labelledby="label1" type="radio" name="q5" value="c" id="q5c" class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none" />
+                        <div class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"></div>
+                    </div>
+                    <label for="'q5c" id="label1" class="ml-2 text-sm leading-4 font-normal text-gray-800 dark:text-gray-100">People who don't know the facts</label>
+				</div>
+				<div class="flex items-center space-x-4 mb-2">
+                    <div class="bg-white dark:bg-gray-100 rounded-full w-4 h-4 flex flex-shrink-0 justify-center items-center relative">
+                        <input aria-labelledby="label1" type="radio" name="q5" value="d" id="q5d" class="checkbox appearance-none focus:opacity-100 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none border rounded-full border-gray-400 absolute cursor-pointer w-full h-full checked:border-none" />
+                        <div class="check-icon hidden border-4 border-indigo-700 rounded-full w-full h-full z-1"></div>
+                    </div>
+                    <label for="'q5d" id="label1" class="ml-2 text-sm leading-4 font-normal text-gray-800 dark:text-gray-100">People who are Non-Confrontational</label>
+
+				</div>
+			</div>
+			
+
+			<hr>
+
+			<!-- Navigation Buttons -->
+			<button type="button" onclick="submitQuiz()"
+					class="bg-indigo-600 text-white text-sm px-4 py-2 
+					rounded-md mt-8 shadow-sm">
+				Submit   <span aria-hidden="true">→</span>
+			</button>
+		</form>
+
+		<div id="result" class="mt-8 hidden">
+			<h2 class="text-2xl text-indigo-700 font-bold mb-4 text-center">
+				Quiz Result
+			</h2>
+			<p id="score" class="text-lg 
+								font-semibold mb-2 
+								text-center">
+			</p>
+			<p id="feedback" class="text-gray-700 text-center"></p>
+			<a href="../success.html"><button type="button" id="goodbutton" class="bg-indigo-600 text-white text-sm px-4 py-2 rounded-md mt-8 shadow-sm hidden">
+				Next   <span aria-hidden="true">→</span>
+			  </button></a>
+			  <a href="../callingon.html"><button type="button" id="badbutton" class="bg-indigo-600 text-white text-sm px-4 py-2 rounded-md mt-8 shadow-sm hidden">
+				<span aria-hidden="true">←</span>   Review
+			  </button></a>
+		</div>
+	</div>
+
+	<script src="./q1script.js">
+
+	</script>
+          </div>
+          <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu blur-3xl sm:top-[calc(100%-30rem)] overflow-hidden" aria-hidden="true">
+            <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem] overflow-hidden" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
